@@ -1,0 +1,364 @@
+
+.boton0{
+position:absolute;
+top:25%;
+width:112px;
+height:20px;
+
+}
+.botonr{
+position:absolute;
+top:95%;
+left: 5%;
+width:200px;
+height:100px;
+background-image:url(https://w7.pngwing.com/pngs/534/864/png-transparent-arrow-ico-icon-left-arrow-blue-angle-web-design.png);
+background-size:cover;
+	background-repeat: no-repeat;
+}
+
+.cuadroboton{
+	position: absolute;
+	width: 25%;
+	height: 95%;
+	border-style: double;
+	border-width: 3px;
+	border-color: #B5C3FB;
+}
+.fondo{ 
+	background-size:cover;
+	background-repeat: no-repeat;
+
+ }
+.foto{
+	position: absolute;
+	top: 43%;
+	left: 15%;
+	width: 200px;
+	height: 200px;
+	background-size: cover;
+	border-color: #F64182;
+	border-style: double;
+	border-width: 3px;
+}
+.boton{
+	top:5%;
+	width: 40px;
+	height: 40px;
+	position: absolute;
+	background-color:#97989D;
+	margin: 2%;
+	border-style:double;
+	border-color:#37383E;
+	border-width: 9px;
+	border-radius:30px;
+}
+.descripciont{
+	position: absolute;
+	left: 9%;
+	top: 82%;
+	opacity: 0;
+	font-size: 150%;
+	font-family: Stencil;
+	color:#373934;
+}
+.descripciont2{
+	position: absolute;
+	left: 2%;
+	top: -3%;
+	opacity: 0;
+	font-size: 115%;
+	color:#7F817C;
+	font-family:"calibri";
+	
+}
+.boton:hover .descripciont{
+	opacity: 1;
+	
+}
+.boton:hover .descripciont2{
+	opacity: 1;
+}
+.descripcion{
+	background-image: url("32.jfif");
+	background-size:cover;
+	background-repeat: no-repeat;
+	width: 710%;
+	height: 1120%;
+	position: absolute;
+	margin-top: 160%;
+	margin-left:5%;
+	border-style: solid;
+	border-width: 5px;
+	border-color: blue;
+	display: none;
+}
+.boton:hover .descripcion{
+	display: block;
+	position: absolute;
+	background-color:#373934;
+	width:710%;
+	height:1200%;
+	margin-top: 160%;
+	margin-left: 4%;
+}
+.banner{
+	margin-left: 27%;
+	width: 70%;
+	height: 47%;
+	position: absolute;
+	border-style:dotted;
+	border-color:#7F5B46;
+	border-width: 3px;
+	background-image: url(https://dc722jrlp2zu8.cloudfront.net/media/cache/09/2d/092dda2e838ce0905434cb2d4fddb121.webp);
+}
+
+.banner:hover .titulo{
+	background-color: #4097FF ;
+	width: 30%;
+	height: 10%;
+	margin-left: 35%;
+	position: absolute;
+	margin-top: 1%;
+	text-align: center;
+	border-style:double;
+	border-color: #7F5B46;
+	border-width: 3px;
+	border-radius: 50px;
+	font-family:"calibri";
+    animation-name: anibanner;
+	animation-duration: 5s;
+	animation-iteration-count: infinite;
+}
+@keyframes anibanner{
+	10%{color: #097516;}
+	20%{color: #0C871B;}
+	30%{color: #0DB121 ;}
+	40%{color: #0AD823;}
+	50%{color: #06F623 ;}
+	60%{color: #09A271 ;}
+	70%{color: #0ABA82 ;}
+	80%{color: #08CA8C ;}
+	90%{color: #08DC99 ;}
+	100%{color: #00FCAC ;}	
+}
+.titulo{
+	background-color:#888789 ;
+	width: 30%;
+	height: 10%;
+	color:#7C25B0;
+	margin-left: 35%;
+	position: absolute;
+	margin-top: 1%;
+	border-style: dashed;
+	border-color: #080471;
+	border-width: 3px;	
+	text-align: center;
+	font-size: 170%;
+
+}
+.texto0{
+    position:absolute;
+	top:25%;
+	font-family:"calibri";
+	color:#00FFF0;
+}
+
+
+.tucan1{
+	width: 22%;
+	height: 42%;
+	margin-left: 27%;
+	position: absolute;
+	margin-top: 24%;
+	border-style: solid;
+	border-width: 3px;
+	border-color: #E1D10C;
+	background-image: url(http://fisiprogramacion.files.wordpress.com/2014/07/tipos_variables.png);
+	background-size:cover;
+	background-repeat: no-repeat;
+	}
+	.boton1{
+	background-color:#9FA5A5 ;
+	width: 70%;
+	position: absolute;
+	height: 12%;
+	margin-left: 15%;
+	margin-top: 2%;
+	text-align: center;
+	font-size: 150%;
+	border-style: double;
+	border-color: #041687 ;
+	border-width: 6px;
+	color:#8600C4;
+}
+.cuadro1{
+	background-color:#949494;
+	background-size: cover;
+	margin-left: -15%;
+	margin-top: 10%;
+	position: absolute;
+	width: 126%;
+	height: 570%;
+	border-style: double;
+	border-color: #00076E ;
+	border-width: 2px;
+	display: none;
+}
+.boton1:active .cuadro1{
+	background-color: #949494;
+	background-size: cover;
+	margin-left: -15%;
+	margin-top: 10%;
+	position: absolute;
+	width: 126%;
+	height: 570%;
+	border-style: double;
+	border-color: #00076E;
+	border-width: 5px;
+	display: block;
+}
+.frase1{
+   position: absolute;
+   opacity: 0;
+   top: 11%;
+   left: 1%;
+   font-family:Candara;
+   font-size: 91%;
+   color: #6D0BBF ;
+}
+.boton1:active .frase1{
+	opacity: 1;
+}
+.leer2{
+	width: 22%;
+	height: 42%;
+	margin-left: 51%;
+	position: absolute;
+	margin-top: 24%;
+	border-style: solid;
+	border-width: 5px;
+	border-color: #00FF4D ;
+	background-image: url(https://i.ytimg.com/vi/_TuyBjvljak/maxresdefault.jpg);
+	background-size:cover;
+	background-repeat: no-repeat;
+}
+.boton2{
+	background-color:#9FA5A5 ;
+	width: 70%;
+	position: absolute;
+	height: 12%;
+	margin-left: 15%;
+	margin-top: 3%;
+	text-align: center;
+	font-size: 150%;
+	font-family:"calibri";
+	border-style: solid;
+	border-color: #041687 ;
+	border-width: 6px;
+	color:#8600C4;
+}
+.cuadro2{
+	background-color: #949494 ;
+	background-size: cover;
+	margin-left: -15%;
+	margin-top: 10%;
+	position: absolute;
+	width: 126%;
+	height: 570%;
+	border-style: double;
+	border-color:#00076E  ;
+	border-width: 6px;
+	display: none;
+}
+.boton2:active .cuadro2{
+	background-image: url(fondo.jpg);
+	background-size: cover;
+	margin-left: -15%;
+	margin-top: 10%;
+	position: absolute;
+	width: 126%;
+	height: 570%;
+	border-style: double;
+	border-color: #00076E  ;
+	border-width: 6px;
+	display: block;
+}
+.frase2{
+   position: absolute;
+   opacity: 0;
+   top: 14%;
+   left: -3%;
+   font-family: Arial;
+   font-size: 100%;
+   color: #6D0BBF;
+}
+.boton2:active .frase2{
+	opacity: 1;
+}
+.leer3{
+	width: 22%;
+	height: 42%;
+	margin-left: 75%;
+	position: absolute;
+	margin-top: 24%;
+	border-style: solid;
+	border-width: 3px;
+	border-color: #F64182;
+	background-image: url(https://i.ytimg.com/vi/_HQlq3lE38k/maxresdefault.jpg);
+	background-size:cover;
+	background-repeat: no-repeat;
+
+}
+.boton3{
+	background-color:#9FA5A5 ;
+	width: 70%;
+	position: absolute;
+	height: 12%;
+	margin-left: 15%;
+	margin-top: 3%;
+	text-align: center;
+	font-size: 150%;
+	border:dotted;
+	border-color: #041687 ;
+	border-width: 6px;
+	color:#8600C4;
+}
+.cuadro3{
+	background-color:#949494 ;
+	background-size: cover;
+	margin-left: -15%;
+	margin-top: 10%;
+	position: absolute;
+	width: 126%;
+	height: 570%;
+    border-style: double;
+	border-color: #00076E ;
+	border-width: 6px;
+	display: none;
+}
+.boton3:active .cuadro3{
+
+	background-size: cover;
+	margin-left: -15%;
+	margin-top: 10%;
+	position: absolute;
+	width: 126%;
+	height: 570%;
+    border-style: double;
+	border-color: #00076E ;
+	border-width: 6px;
+	display: block;
+}
+.frase3{
+	position: absolute;
+	opacity: 0;
+    top: 14%;
+    left: -1%;
+    font-family:Calibri;
+    font-size: 100%;
+    color: #6D0BBF;
+}
+.boton3:active .frase3{
+	opacity: 1;
+
