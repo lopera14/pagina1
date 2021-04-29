@@ -1,29 +1,5 @@
 
 
-.boton5{
-position:absolute;
-top:10%;
-width:112px;
-height:20px;
-
-}
-.botonsoto{
-position:absolute;
-top:25%;
-width:112px;
-height:20px;
-
-}
-
-
-.botonn{
-position:absolute;
-top:200%;
-width:112px;
-height:20px;
-
-}
-
 .boton0{
 position:absolute;
 top:25%;
@@ -31,12 +7,7 @@ width:112px;
 height:20px;
 
 }
-.boton40{
-position:absolute;
-top:45%;
-width:112px;
-height:20px;
-}
+
 .botonr{
 position:absolute;
 top:95%;
